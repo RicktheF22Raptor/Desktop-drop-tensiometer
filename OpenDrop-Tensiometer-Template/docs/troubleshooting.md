@@ -1,4 +1,0 @@
-# Troubleshooting
-
-| Problem | Cause | Solution |
-|---|---|---|
