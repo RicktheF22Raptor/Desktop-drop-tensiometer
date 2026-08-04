@@ -1,10 +1,3 @@
-# Hardware
-
-## Camera
-
-## Lighting
-
-## Frame
 
 ## Electronics
 # USB Camera + Potentiometer-Controlled LED — Wiring Guide
