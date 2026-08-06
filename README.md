@@ -25,19 +25,6 @@ Commercial pendant drop tensiometers are accurate but expensive, putting hands-o
 - 🎛️ Custom contrast-enhancement tool for reliable edge detection on this hardware's optical path
 - 📖 Complete, from-scratch build and calibration documentation
 
-## Device Specifications
-
-| Spec | Value |
-|---|---|
-| Measurement principle | Pendant drop / Young-Laplace fitting |
-| Measurement range | **[e.g., 15–75 mN/m]** |
-| Reported accuracy | **[e.g., within X% of literature reference, see Validation]** |
-| Camera | **[model, resolution]** |
-| Controller | **[microcontroller model]** |
-| Footprint | **[dimensions]** |
-| Approximate build cost | **[$X]** |
-| Analysis software | [OpenDrop](https://github.com/jdber1/opendrop) + this project's [image processor](docs/image-processing.md) |
-
 ## Repository Structure
 
 ```
@@ -51,11 +38,8 @@ Drop-Tensiometer/
 ├── docs/                     # Full documentation (see below)
 ├── CAD/                       # STEP, STL, drawings, source CAD files
 ├── Electronics/                # Schematics, PCB, wiring diagrams, BOM
-├── Firmware/                   # Microcontroller firmware
-├── Software/                   # Supporting scripts/tools (non-firmware)
 ├── tools/image-processor/       # Contrast-enhancement tool (see docs/image-processing.md)
 ├── Images/                     # Photos of the build, results, diagrams
-├── Data/                       # Calibration logs and sample measurement data
 └── Examples/                    # Example projects / sample analyses
 ```
 
@@ -64,31 +48,7 @@ Drop-Tensiometer/
 1. **Read the background and theory** — [Background](docs/background.md) and [Working Principle](docs/theory.md) explain what this device measures and how.
 2. **Order parts and print components** — see the [Bill of Materials](Electronics/BOM.xlsx) and [Build Instructions](docs/assembly.md).
 3. **Assemble the hardware** — follow [Build Instructions](docs/assembly.md) step by step, including firmware upload and software install.
-4. **Calibrate** — run the full [Calibration](docs/calibration.md) procedure before taking any real measurements; do not skip baseline validation.
-5. **Take a measurement** — follow the [Usage Guide](docs/usage.md), including the [camera orientation setup](docs/usage.md#camera-orientation) and the [image processing workflow](docs/image-processing.md).
-6. **Something not working?** — check [Troubleshooting](docs/troubleshooting.md).
-
-## Documentation
-
-Full documentation lives in [`docs/`](docs/):
-
-| Page | Description |
-|---|---|
-| [Background](docs/background.md) | Why this project exists — surface tension, existing instruments, motivation |
-| [Working Principle](docs/theory.md) | The physics — Young-Laplace equation and the measurement pipeline |
-| [Design Process](docs/design.md) | Engineering design and tradeoffs, by subsystem |
-| [Build Instructions](docs/assembly.md) | Step-by-step assembly guide |
-| [Calibration](docs/calibration.md) | Pixel calibration, focus, distortion, baseline validation |
-| [Usage Guide](docs/usage.md) | How to operate the device, including camera orientation |
-| [Image Processing](docs/image-processing.md) | The custom contrast-enhancement tool and why it's needed |
-| [Validation](docs/validation.md) | Measured accuracy vs. literature and commercial reference values |
-| [Troubleshooting](docs/troubleshooting.md) | Common issues and fixes |
-| [Future Improvements](docs/future-work.md) | Planned enhancements and open contribution areas |
-| [References](docs/references.md) | Papers and sources cited throughout the documentation |
-
-## Results
-
-**[validation result here — e.g., "Measured surface tension of distilled water within X% of the literature value (72.8 mN/m)."]** Full results and methodology are in [Validation](docs/validation.md).
+4. **Take a measurement** — follow the [Usage Guide](docs/usage.md), 
 
 
 ## Contributing
