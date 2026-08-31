@@ -131,12 +131,21 @@ Breadboard numbering: columns `1, 2, 3…`, rows `A–E` (top half) and `F–J` 
 - The pushbutton's leads aren't on a perfect 0.1" grid — bend them slightly to seat cleanly in `F9`/`F11`.
 - Solder power connections securely; a loose VCC/GND joint interrupts power to the camera as well as the LED branch, since both share the same jumpers.
 
-## Step 1
-### Parts
-### Procedure
-1.
-2.
-3.
+
+# Procedure(V1)
+### 1. After printing all of the parts, use the light holder and place the LED in the circular slot, make sure the leads go through the other side 
+<img width="924" height="638" alt="image" src="https://github.com/user-attachments/assets/1238b57d-3583-4964-a1bd-b0d19f2b7230" />
+
+### 2. Use 4 m2.5 screws and nuts to secure the usb camera, ensure that the connector is place vertically on the left or right, a 90 degree rotation from the standard position)
+<img width="887" height="521" alt="image" src="https://github.com/user-attachments/assets/0ee70b0a-0243-4626-a654-63a97b4e33e2" />
+
+### 3. Follow the electronics assembly instructions, mount the board to the apparatus, using 4 m2 screws on each corner tot the inside back wall in the camera chamber.
+<img width="724" height="469" alt="image" src="https://github.com/user-attachments/assets/1bb43d69-d72e-4ce7-ba8c-957ab6863ea5" />
+
+### 4. Place lid on the apparatus and procced with usage guide
+<img width="262" height="320" alt="image" src="https://github.com/user-attachments/assets/45cc23df-eb20-4f67-ad35-859a070920cf" />
+
+
 ### Expected Result
 
 ---
