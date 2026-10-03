@@ -153,8 +153,8 @@ V2 uses a different light source and resistor value, which provides sufficient d
 Parts that differ from V1:
 
 Part	Link	Notes
-[V2 light source]	[link]	[voltage/current spec]
-[V2 resistor value]	[link, or "any standard X, 1/4W resistor works"]	[what it's current-limiting]
+[V2 light source]	[[link]](https://www.adafruit.com/product/1621)]	[voltage/current spec]
+[V2  100 ohms resistor value]	[https://www.amazon.com/BOJACK-Resistor-Ohm-5-6M-Resistors-Assortment/dp/B07P3MFG5D/ref=pd_lpo_d_sccl_1/146-5823431-3125361?pd_rd_w=jxbrn&content-id=amzn1.sym.4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_p=4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_r=7GMA7H1JRMT3BVNZP6FW&pd_rd_wg=757PD&pd_rd_r=13ceb468-7203-4250-9f1d-1b150c209003&pd_rd_i=B07P3MFG5D&psc=1]	[what it's current-limiting]
 
 Steps:
 
