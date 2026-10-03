@@ -146,6 +146,30 @@ Breadboard numbering: columns `1, 2, 3…`, rows `A–E` (top half) and `F–J` 
 <img width="262" height="320" alt="image" src="https://github.com/user-attachments/assets/45cc23df-eb20-4f67-ad35-859a070920cf" />
 
 
-### Expected Result
+# Procedure (V2)
 
----
+V2 uses a different light source and resistor value, which provides sufficient droplet/background contrast directly — no image processing step is required before analysis. Electronics, mounting hardware, and general assembly are otherwise identical to V1 except where noted below. The wiring diagram can be followed as previously described by switiching out the resistor.
+
+Parts that differ from V1:
+
+Part	Link	Notes
+[V2 light source]	[link]	[voltage/current spec]
+[V2 resistor value]	[link, or "any standard X, 1/4W resistor works"]	[what it's current-limiting]
+
+Steps:
+
+### 1. After printing all of the parts, Place the assembled electronics inside the plate making sure it securely screwed in, with all components connected piror to installation
+<img width="789" height="509" alt="Screenshot 2026-10-03 131432" src="https://github.com/user-attachments/assets/05ee5682-949e-4e52-aac9-4e605a5515d5" />
+
+### 2. Use 4 m2.5 screws and nuts to secure the usb camera, ensure that the connector is place vertically on the left or right, a 90 degree rotation from the standard position)
+<img width="697" height="429" alt="Screenshot 2026-10-03 135050" src="https://github.com/user-attachments/assets/6accb293-fd52-4cca-b248-42233e108e84" />
+
+
+### 3. Place light in vertical slot with wires pointing up as they will be threaded through the lid slot 
+<img width="715" height="527" alt="Screenshot 2026-10-03 135921" src="https://github.com/user-attachments/assets/aec0714b-9165-4b6b-9580-495570e1ef9b" />
+
+
+### 4. Place the lid and connect wires for the ligh tthrought the hole in the side and procced with usage guide.
+<img width="733" height="473" alt="Screenshot 2026-10-03 140202" src="https://github.com/user-attachments/assets/54648f26-da62-488b-911f-c777b7f5d774" />
+
+
