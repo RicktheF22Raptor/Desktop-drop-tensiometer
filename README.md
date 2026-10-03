@@ -2,7 +2,7 @@
 
 An open-source, low-cost **pendant drop tensiometer** — a 3D-printable, DIY alternative to commercial surface tension instruments such as the FTÅ200, built for research and educational labs that don't have **[$15,000+]** for a proprietary system.
 
-**[Insert device photo here]**
+
 
 ---
 
